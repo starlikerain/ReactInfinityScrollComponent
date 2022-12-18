@@ -6,7 +6,7 @@ export default function Layout() {
     <div className={styles.navs}>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">首页</Link>
         </li>
         {/*<li>*/}
         {/*  <Link to="/docs">Docs</Link>*/}

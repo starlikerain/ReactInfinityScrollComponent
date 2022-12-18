@@ -1,8 +1,12 @@
+::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+
 .jobsContainer {
   margin: 20px;
   border: 1px solid cornflowerblue;
   border-radius: 8px;
-  height: 300px;
+  height: 400px;
   width: 50vw;
   overflow: hidden;
 
@@ -29,5 +33,36 @@
 
   .listItemContainer > span:nth-child(1) {
     color: cornflowerblue;
+  }
+
+  [class~='ant-list-item'] {
+    cursor: pointer;
+  }
+
+  [class~='ant-list-item'] > div:nth-child(1) {
+    width: 40%;
+    overflow: hidden;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: cornflowerblue;
+  }
+
+  [class~='ant-list-item'] > div:nth-child(2) {
+    width: 30%;
+    overflow: hidden;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: gray;
+  }
+
+  [class~='ant-list-item'] > div:nth-child(3) {
+    //width: 30%;
+    overflow: hidden;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #595959;
   }
 }
